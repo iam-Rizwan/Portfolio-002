@@ -226,6 +226,65 @@ nav {
     margin: 10px auto 0;
 }
 
+.design-projects {
+    padding: 4rem 0;
+    background: #121212;
+}
+
+.design-projects .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--accent-green);
+    margin-bottom: 2rem;
+}
+
+.design-projects .projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-projects .project-card {
+    background: #121212;
+    border: 1px solid #ddd;
+    color: var(--accent-green);
+    border-radius: 5px;
+    padding: 2rem;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.design-projects .project-card p{
+    color: #ffffff;
+}
+
+.design-projects .project-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.design-projects .project-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.design-projects .project-card .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--accent-purple);
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.design-projects .project-card .btn:hover {
+   background-color: var(--accent-green);
+}
+
 .skills-grid {
     display: flex;
     flex-wrap: wrap;
